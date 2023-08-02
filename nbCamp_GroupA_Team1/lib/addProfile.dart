@@ -29,6 +29,7 @@ class syPage extends StatelessWidget {
     ADController.text = bartenderProfile.btAdvantage;
     BlogController.text = bartenderProfile.btBlog;
     StyleController.text = bartenderProfile.btStyle;
+    // ignore: unused_local_variable
     final FocusNode textFocusNode = FocusNode(); // FocusNode 생성
 
     final String changeText;
